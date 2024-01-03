@@ -1,0 +1,7 @@
+#adminmainbox{
+    width: 78%;
+    height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}

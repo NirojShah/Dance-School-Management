@@ -1,0 +1,11 @@
+#dash{
+    width: 100%;
+    height: 100vh;
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    background: url("../../ASSETS/Register/wallpaperflare.com_wallpaper\(1\).jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

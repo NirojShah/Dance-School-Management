@@ -1,0 +1,86 @@
+#boxcheck{
+    width: 290px;
+    height: 50px;
+    border: 1px solid black;
+    border-right: none;
+    position: absolute;
+    box-shadow: -3px 3px 10px black;
+    border-radius: 10px 0 0 10px;
+    z-index: 2;
+    left: 10px;
+    top: 367px;
+}
+
+#viewmain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#viewmain>h1{
+    width: 96%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+#viewbranch{
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#viewEach{
+    width: 310px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 8px black;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#box{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#placeholder{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#values{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#btns{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#btns button{
+    width: 80px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.137);
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+#btns button:focus{
+    box-shadow: 5px 5px 8px black;
+}

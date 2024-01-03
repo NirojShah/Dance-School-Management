@@ -1,0 +1,79 @@
+#registerbox {
+  width: 100%;
+  height: 88.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#registerbox>h1{
+    width: 400px;
+    text-transform: uppercase;
+}
+
+#form {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 4px;
+  box-shadow: 20px 10px 30px black;
+  padding-left: 30px;
+}
+
+#form > input {
+  background-color: rgba(255, 255, 255, 0.521);
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 5px;
+  border: 1px solid white;
+  transition: 0.2s;
+}
+
+#form > input:focus {
+  outline: 1px solid blue;
+  box-shadow: 10px 10px 10px black;
+  height: 32px;
+}
+
+#btns {
+  width: 300px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+#btns > button {
+  width: 100px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.616);
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.342);
+  transition: 0.2s;
+}
+
+#btns > button:focus {
+  height: 104px;
+  height: 32px;
+  box-shadow: 10px 10px 10px black;
+}
+
+
+#boxcheck{
+    width: 290px;
+    height: 50px;
+    border: 1px solid black;
+    border-right: none;
+    position: absolute;
+    box-shadow: -3px 3px 10px black;
+    border-radius: 10px 0 0 10px;
+    z-index: 2;
+    left: 10px;
+      top: 236px;
+  }

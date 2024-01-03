@@ -1,0 +1,142 @@
+#register{
+    width: 73vw;
+    height: 88.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#boxcheck{
+    width: 290px;
+    height: 50px;
+    border: 1px solid black;
+    border-right: none;
+    position: absolute;
+    box-shadow: -3px 3px 10px black;
+    border-radius: 10px 0 0 10px;
+    z-index: 2;
+    left: 10px;
+    top: 170px;
+
+}
+
+#imgbox{
+    width: 46%;
+    height: 70vh;
+}
+
+#imgbox img{
+    width: 600px;
+    position: absolute;
+    z-index: 1;
+    bottom: 110px;
+    left: 180px;
+    /* animation-name: mover; */
+    animation-timing-function: ease-in-out;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    
+    
+}
+
+@keyframes mover {
+    50%{
+        left:200px;
+        bottom: 140px;
+    }
+    100%{
+        left: 130px;
+        bottom: 110px;
+
+    }
+}
+
+#registerbox{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#registerbox h1{
+    width: 80%;
+    letter-spacing: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+#registerbox form{
+    width: 80%;
+    height: 60vh;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 4px;
+    box-shadow: 20px 10px 30px black;
+}
+
+#registerbox form>input{
+    background-color: rgba(255, 255, 255, 0.521);
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: 1px solid white;
+    transition: 0.2s;
+}
+
+#registerbox form>input:focus{
+    outline: 1px solid blue;
+    box-shadow: 10px 10px 10px black;
+    height: 32px;
+}
+
+#gender{
+    width: 300px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#gender > div{
+    display: flex;
+    gap: 10px;
+}
+
+#registerbox form #btns{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#btns button{
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.616);
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.342);
+    transition: 0.2s;
+}
+
+#btns button:focus{
+    height: 104px;
+    height: 32px;
+    box-shadow: 10px 10px 10px black;
+}
+
+#eye{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 212px;
+    right: 500px;
+}
